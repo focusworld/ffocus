@@ -224,7 +224,7 @@ function create_config( )
     sudo_users = {119650184,,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
-    about_text = [[Teleseed v2 - Open Source
+    about_text = [[teletamir v2 - Open Source
 An advance Administration bot based on yagop/telegram-bot 
 
 https://github.com/amir1213/focusbot
@@ -315,7 +315,7 @@ Commands list :
 
 !kick [username|id]
 You can also do it by reply
-
+کیک و بن ریپلی انجام میشود
 !ban [ username|id]
 You can also do it by reply
 
@@ -327,31 +327,31 @@ Members list
 
 !modlist
 Moderators list
-
+مدیر کردن
 !promote [username]
 Promote someone
-
+ازبین بردن مدیر
 !demote [username]
 Demote someone
-
+رفتن از گروه
 !kickme
 Will kick user
 
 !about
 Group description
-
+گزاشتن عکس گروه
 !setphoto
 Set and locks group photo
-
+ست کردن نام گروه
 !setname [name]
 Set group name
-
+گزاشتن قانون گروه
 !rules
 Group rules
-
+مشخصات
 !id
 return group id or user id
-
+لیست دستورات
 !help
 
 !lock [member|name|bots|leave]	
@@ -365,22 +365,22 @@ Set <text> as rules
 
 !set about <text>
 Set <text> as about
-
+تنظیمات گروه
 !settings
 Returns group settings
-
+لینک جدید
 !newlink
 create/revoke your group link
-
+دریافت لینک گروه
 !link
 returns group link
-
+مدیر اصلی گروه
 !owner
 returns group owner id
-
+مدیر اصلی کردن گروه
 !setowner [id]
 Will set id as owner
-
+تعداد اسپم
 !setflood [value]
 Set [value] as flood sensitivity
 
