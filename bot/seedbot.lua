@@ -221,7 +221,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {119650184,,tonumber(our_id)},--Sudo users
+    sudo_users = {157187288,,tonumber(our_id)},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[teletamir v2 - Open Source
@@ -230,7 +230,7 @@ An advance Administration bot based on yagop/telegram-bot
 https://github.com/amir1213/focusbot
 
 Admins
-@amirho3ein911 [Founder]
+@mamaligodem [Founder]
 
 
 
